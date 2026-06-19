@@ -37,6 +37,7 @@ with open("data/universities.json") as f:
 
 ## API
 🚀 How to Run It
+
 Install Flask:
 ```python
  pip install flask
