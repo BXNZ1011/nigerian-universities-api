@@ -1,2 +1,21 @@
-# nigerian-universities-api
-A structured dataset of Nigerian universities, polytechnics, and colleges in multiple formats (JSON, SQL, CSV), with metadata such as location, type, website, and year established. Useful for developers, researchers, and civic tech projects. 
+# Nigerian Universities API
+
+## 📖 Overview
+This repository provides a structured dataset of Nigerian universities, polytechnics, and colleges.  
+The data is available in multiple formats (JSON, SQL, CSV) to make it easy to integrate into applications, research, and civic tech projects.
+
+## 📂 Contents
+- `data/universities.json` → JSON dataset
+- `data/universities.sql` → SQL insert script
+- `data/universities.csv` → CSV dataset
+- `docs/usage.md` → Documentation and usage examples
+
+## 🚀 Usage
+
+### JSON
+Load the dataset in Python:
+```python
+import json
+with open("data/universities.json") as f:
+    universities = json.load(f)
+    print(universities[0]["name"])
