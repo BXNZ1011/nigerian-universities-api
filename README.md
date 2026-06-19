@@ -12,6 +12,17 @@ The data is available in multiple formats (JSON, SQL, CSV) to make it easy to in
 
 ## 🚀 Usage
 
+### SQL
+in sql
+\i universities/universities.sql
+SELECT * FROM universities WHERE type='Federal';
+
+### CSV
+in python 
+import pandas as pd
+df = pd.read_csv("universities/universities.csv")
+print(df.head())
+
 ### JSON
 Load the dataset in Python:
 ```python
