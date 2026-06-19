@@ -33,3 +33,12 @@ import json
 with open("data/universities.json") as f:
     universities = json.load(f)
     print(universities[0]["name"])
+```
+
+## API
+🚀 How to Run It
+Install Flask:
+```python
+ pip install flask
+python api/server.py
+ 
