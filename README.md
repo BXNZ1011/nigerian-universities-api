@@ -19,3 +19,4 @@ import json
 with open("data/universities.json") as f:
     universities = json.load(f)
     print(universities[0]["name"])
+### CSV
