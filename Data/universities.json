@@ -1,0 +1,26 @@
+[
+  {
+    "name": "University of Lagos",
+    "slug": "unilag",
+    "type": "Federal",
+    "location": "Lagos State",
+    "website": "https://unilag.edu.ng",
+    "established": 1962
+  },
+  {
+    "name": "Ahmadu Bello University",
+    "slug": "abu-zaria",
+    "type": "Federal",
+    "location": "Kaduna State",
+    "website": "https://abu.edu.ng",
+    "established": 1962
+  },
+  {
+    "name": "Covenant University",
+    "slug": "covenant-university",
+    "type": "Private",
+    "location": "Ogun State",
+    "website": "https://covenantuniversity.edu.ng",
+    "established": 2002
+  }
+]
